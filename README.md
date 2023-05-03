@@ -1,5 +1,5 @@
 # kedai-kopi-anis
-class TiassCoffee:
+class anisCoffee:
     def __init__(self):
         self._menu = {
             "a": ("ES Kopi Susu", 13000),
@@ -11,7 +11,7 @@ class TiassCoffee:
     def show_menu(self):
         print("""
         ==============================
-        Tiass Coffe
+        anis Coffe
         List Menu Minuman Kopi
         ==============================
         A. ES Kopi Susu : Rp 13.000
@@ -36,7 +36,7 @@ class TiassCoffee:
         return name, price, qty, discount, tax, total_price
 
 if __name__ == "__main__":
-    cafe = TiassCoffee()
+    cafe = anisCoffee()
 
     choice = "y"
     while choice.lower() == "y":
